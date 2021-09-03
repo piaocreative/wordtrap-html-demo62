@@ -1,0 +1,59 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+.link-icon {
+	background-image: url(../images/icons/link.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 2.5625rem;
+	height: 2.5625rem;
+
+	&.black {
+		background-image: url(../images/icons/link_black.png);
+	}
+}
+
+
+.about-us-link {
+	padding: 1.2rem 3rem;
+	background-color: $theme-color;
+	color: white;
+	text-decoration: none;
+	font-size: .875rem;
+	display: inline-block;
+}
+
+#about-top {
+	padding: 8rem 0;
+
+	h2 {
+		font-size: 6.25rem;
+		line-height: 1.15;
+	}
+
+	@include media-breakpoint-down(lg) {
+		padding: 4rem 0;
+	}
+	
+	@include media-breakpoint-down(sm) {
+		h2 {
+			font-size: 3.25rem;
+		}
+	}
+}
