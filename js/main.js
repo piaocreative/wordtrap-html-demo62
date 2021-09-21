@@ -1,39 +1,25 @@
 $( document ).ready( function() {
-    
-    if ( $( '.logos' ).length ) {
-        $( '.logos' ).slick({
-            infinite: true,
-            slidesToShow: 7,
-            slidesToScroll: 7,
-            dots: false,
-            arrows: false,
-            responsive: [
-                {
-                    breakpoint: 992,
-                    settings: {
-                        infinite: true,
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        infinite: true,
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        infinite: true,
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                    }
-                }
-            ]
-        });
-    } 
+  $('.products').slick({
+    centerMode: true,
+    slidesToShow: 3,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 
 } );
