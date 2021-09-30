@@ -32,28 +32,6 @@
 		}
 	}
 
-	.sub-title {
-		font-weight: 300;
-		font-size: 0.875rem;
-		color: #7f7f7f;
-
-		div {
-			&:nth-child(1) {
-				&:after {
-					background-color: #e7e7e7;
-					content: "";
-					display: inline-block;
-					height: 1.5rem;
-					position: relative;
-					vertical-align: middle;
-					width: 1px;
-					margin-left: 1rem;
-					margin-right: 1rem;
-				}
-			}
-		}
-	}
-
 	p {
 		font-size: 0.875rem;
 		line-height: 1.6rem;
@@ -68,19 +46,30 @@
 }
 
 .breadcrumb {
-	display: flex;
-	font-size: $h6-font-size;
-	padding: 0.625rem 0;
-
 	li {
-		padding: 0 0.625rem;
+		a {
+			font-weight: 300;
+			font-size: 0.875rem;
+			color: #7f7f7f;
+			text-decoration: none;
 
-		&.active {
-			color: #ddcef5;
+			&.active {
+				color: $dark;
+			}
 		}
 
-		&:first-child {
-			padding-left: 0;
+		&:nth-child(1) {
+			&:after {
+				background-color: #e7e7e7;
+				content: "";
+				display: inline-block;
+				height: 1.5rem;
+				position: relative;
+				vertical-align: middle;
+				width: 1px;
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
 		}
 	}
 }

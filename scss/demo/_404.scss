@@ -36,6 +36,10 @@
         }
     }
 
+    .error-side {
+        padding-top: 10rem;
+    }
+
     @include media-breakpoint-down(lg) {
         .error-banner {
             img {
@@ -49,6 +53,10 @@
             .h-100 {
                 height: auto !important;
             }
+        }
+
+        .error-side {
+            padding: 1rem;
         }
     }
 }
