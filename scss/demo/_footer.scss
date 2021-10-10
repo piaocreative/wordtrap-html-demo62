@@ -13,13 +13,6 @@
 /* ----------------------------------------------------------------
 	Add here styles for footer. Thanks!
 -----------------------------------------------------------------*/
-
-#footer {
-	a {
-		text-decoration: none !important;
-	}
-}
-
 #footer-top {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
@@ -76,9 +69,7 @@
 }
 
 #copyrights {
-	font-family: $body-font;
 	color: #878787;
-	font-weight: 400;	
 	line-height: 2;
 	z-index: 1;	
 	font-size: 0.875rem;

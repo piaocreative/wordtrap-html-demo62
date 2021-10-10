@@ -34,12 +34,11 @@ $heading-font:                'Cormorant', serif;
 
 // Font sizes
 $h1-font-size:                	6.875rem;
-$h1-about: 						          5.375rem;
 $h2-font-size:                	4.685rem;
 $h3-font-size:                	2.5rem;
 $h4-font-size:                	1.5rem;
 $h5-font-size:                	1.125rem;
-$h6-font-size:               	  0.875rem;
+$h6-font-size:               	0.875rem;
 
 
 
@@ -90,6 +89,7 @@ $top-btn-font-color:       		#ffffff;
 //-------------------- Section --------------------//
 
 $section-spacer:				3rem;
+$gutter-width:					1.875rem;
 
 
 
@@ -117,7 +117,7 @@ $input-btn-focus-width:         1px;
 $input-focus-border-color:      $theme-color;
 
 $input-border-radius:           0rem;
-$input-border-radius-sm:        1rem !important;
+$input-border-radius-sm:        1rem;
 $input-border-radius-lg:        1.83rem;
 
 $input-font-weight:				      300;

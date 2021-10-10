@@ -19,7 +19,6 @@
 
 	.title {
 		color: $dark;
-		font-family: $heading-font;
 		font-weight: 300;
 		line-height: 1.2;
 	}
@@ -31,24 +30,11 @@
 	}
 
 	.category-link {
-		font-family: $body-font;
 		font-size: 0.875rem;
 		font-weight: 300;
 		padding: 1.5rem 3rem;
 		background-color: $theme-color;
 		color: $white;
 		text-decoration: none;
-	}
-
-	.heading-arrow {
-		a {
-			text-decoration: none;
-			color: #e5e5e5;
-			font-size: 1.75rem;
-
-			&:hover {
-				color: $theme-color;
-			}
-		}
 	}
 }

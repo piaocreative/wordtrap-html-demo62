@@ -20,15 +20,8 @@
 	position: relative;
 
 	p {
-		font-family: $body-font;
-		font-weight: 400;
 		color: #878787;
 		font-size: 0.875rem;
-	}
-
-	a {
-		font-family: $body-font;
-		font-weight: 400;
 	}
 
 	.widget-title {
@@ -70,12 +63,6 @@
 							padding: 0.5rem;
 							font-size: 1rem;
 						}
-	
-						&.contact {
-							color: $primary !important;
-							background-color: $white;
-							border-radius: 50%;
-						}
 					}
 				}
 			}
@@ -91,21 +78,14 @@
 				margin-bottom: 0.3rem;
 
 				a {
-					font-family: $body-font;
 					font-size: 0.875rem;
-					font-weight: 400;
 					color: #878787;
-					text-decoration: none;
 
 					&:hover {
 						color: $theme-color;
 					}
 				}
 			}
-		}
-
-		@include media-breakpoint-down(lg) {
-			padding: 0 !important;
 		}
 
 		@include media-breakpoint-down(md) {
@@ -134,10 +114,10 @@
 				background-size: 80% auto;
 				background-repeat: no-repeat;
 				background-position: center;
-				border-radius: 0.5rem !important;
+				border-radius: 0.5rem ;
 
 				img {
-					width: 3rem !important;
+					width: 3rem;
 				}
 			}
 		}
@@ -149,35 +129,12 @@
 
 			a {
 				display: block;
-				font-family: $body-font;
 				font-size: 1.25rem;
 				color: $white;
-				text-decoration: none;
 			}
 
 			p {
 				font-size: 0.875rem;
-			}
-		}
-	}
-
-	// Widget - feedback
-	&.widget-feedback {
-		.widget-content {
-			p {
-				letter-spacing: 0.1rem
-			}
-
-			#widget-feedback-form {
-
-				input {
-					background-color: #f9f9f9;
-					color:#d0d0d0;
-				}
-				
-				.input-group-append {
-					margin-left: -2.875rem;
-				}
 			}
 		}
 	}
@@ -212,54 +169,9 @@
 						}
 
 						.input-group-append {
-							margin: 0 !important;
+							margin: 0;
 						}
 					}
-				}
-			}
-
-			::placeholder {
-				color: #c3c3c3;
-				opacity: 1; /* Firefox */
-			}
-			  
-			:-ms-input-placeholder { /* Internet Explorer 10-11 */
-			color: #c3c3c3;
-			}
-			
-			::-ms-input-placeholder { /* Microsoft Edge */
-			color: #c3c3c3;
-			}
-		}
-	}
-
-	// Widget - Products
-	&.widget-products {
-		.widget-content {
-			.product {
-				display: flex;
-				align-items: center;
-				margin-bottom: 0.625rem;
-
-				.product-image {
-					flex: 1;
-					height: 8.25rem;
-					max-width: 9.75rem;
-				}
-
-				.product-details {
-					flex: 1;
-					padding: 0 1.25rem;					
-				}
-
-				.product-price {					
-					margin-bottom: 0.625rem;
-				}
-
-				.product-title {
-					a {
-						color: $white;																		
-					}					
 				}
 			}
 		}

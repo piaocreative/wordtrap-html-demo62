@@ -107,8 +107,6 @@
 	}
 
 	.product-price {
-		font-size: 1rem;
-		font-family: $body-font;
 		font-weight: 500;
 		line-height: 1;
 		color: $secondary;
@@ -124,12 +122,10 @@
 		a {
 			color: #8d8d90;
 			font-size: 0.875rem;
-			text-decoration: none;
 		}
 	}
 
 	.product-title {
-		font-family: $heading-font;
 		font-size: 1.875rem;
 		font-weight: 600;
 
@@ -176,7 +172,6 @@
 	.add-to-cart {
 		padding: 1rem 2rem;
 		width: 100%;
-		font-family: $body-font;
 		font-size: .7rem;
 		border-radius: 2rem;
 		color: #fff;
@@ -189,8 +184,6 @@
 .onnew,
 .onhot,
 .onsale {
-	font-family: $body-font;
-    font-size: 1rem;
     line-height: 1;
     font-weight: 600;
     z-index: 2;
@@ -285,11 +278,9 @@
 
 			p {
 				font-size: 0.875rem;
-				font-family: $body-font;
 			}
 
 			a {
-				font-family: $body-font;
 				font-size: .875rem;
 				color: $dark;
 			}

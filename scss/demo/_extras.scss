@@ -9,24 +9,8 @@
 /* ----------------------------------------------------------------
 	Extra Styles
 -----------------------------------------------------------------*/
-
-.shipping-banner {
-	position: absolute;
-	left: 4.375rem;
-	top: 5.625rem;	
-}
-
-.link-icon {
-	background-image: url(../images/icons/link.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	display: inline-block;
-	width: 2.5625rem;
-	height: 2.5625rem;
-
-	&.black {
-		background-image: url(../images/icons/link_black.png);
-	}
+.container-fluid {
+	overflow: hidden;
 }
 
 

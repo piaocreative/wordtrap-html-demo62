@@ -20,20 +20,8 @@ textarea {
     color: #7c7b7a;
 }
 
-// Required field
-.required-field {
-    position: relative;
-
-    &:after {
-        content: "";
-        position: absolute;
-        right: 1.375rem;
-        top: 0;
-        display: block;
-        width: 0.5rem;
-        height: 0.6875rem;
-        background-image: url(../images/icons/clip_icon.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
+#contact {
+    input {
+        border-color: #c1c1c1;
     }
 }
