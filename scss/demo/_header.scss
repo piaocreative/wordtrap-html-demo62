@@ -116,7 +116,7 @@
 
 	.nav-link {
 		color: $dark;		
-		font-size: 0.875rem;	
+		font-size: $h6-font-size;	
 		line-height: 1;
 
 		&:hover {
@@ -134,7 +134,7 @@
 	a.nav-link {
 		color: $dark;
 		display: block;
-		font-size: 0.875rem;	
+		font-size: $h6-font-size;	
 		border-left: 1px solid #c5dee6;
 		padding-left: 2.5rem;
 

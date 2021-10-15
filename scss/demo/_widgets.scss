@@ -150,22 +150,13 @@
 				.input-group-append {
 					margin-left: -1rem;
 				}
-
-				button {
-					padding: 1.8rem 2rem;
-				}
-
+				
 				@include media-breakpoint-down(sm) {
 					.input-group {
 						display: block;
 
 						input {
 							width: 100%;
-						}
-
-						button {
-							width: 100%;
-							margin-top: 1rem;
 						}
 
 						.input-group-append {
