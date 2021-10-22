@@ -4,16 +4,17 @@
 
 -----------------------------------------------------------------*/
 .error-404 {
+    background-image: url(../images/404/404.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
+    padding-top: 10.625rem;
+    padding-bottom: 2rem;
 
     .error-content {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 100%;
-
         .error-logo {
+            font-family: $body-font;
             font-size: 20.5rem;
             
             @include media-breakpoint-down(sm) {
@@ -29,30 +30,6 @@
 
         p {
             font-weight: 500;
-        }
-    }
-
-    .error-side {
-        padding-top: 10rem;
-    }
-
-    @include media-breakpoint-down(lg) {
-        .error-banner {
-            img {
-                height: 60rem;
-            }
-        }
-
-        .error-content {
-            padding: 1.5rem;
-            
-            .h-100 {
-                height: auto !important;
-            }
-        }
-
-        .error-side {
-            padding: 1rem;
         }
     }
 }
